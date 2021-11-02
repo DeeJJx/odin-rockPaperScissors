@@ -43,13 +43,13 @@ let playRound = (playerSelection, computerSelection) => {
 let game = () => {
     let i = 0;
     let round = 1;
-    for(i=0; i<5; i++){
-        playerSelection = prompt("Rock, Paper or Scissors?").toLowerCase();
-        let computerSelection = computerPlay();
-        playRound(playerSelection, computerSelection);
-        console.log('The score is: ' + playerScore + 'playerScore & ' + computerScore + 'compScore');
-        console.log(round++);
-    }
+    // for(i=0; i<5; i++){
+    //     playerSelection = prompt("Rock, Paper or Scissors?").toLowerCase();
+    //     let computerSelection = computerPlay();
+    //     playRound(playerSelection, computerSelection);
+    //     console.log('The score is: ' + playerScore + 'playerScore & ' + computerScore + 'compScore');
+    //     console.log(round++);
+    // }
 }
 
 game();
