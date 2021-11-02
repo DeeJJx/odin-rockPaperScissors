@@ -39,6 +39,25 @@ let playRound = (playerSelection, computerSelection) => {
 }
 
 
+const rock = document.querySelector('#rock');
+rock.addEventListener('click', () => {
+    let comp = computerPlay();
+  playRound('rock', comp);
+});
+
+const paper = document.querySelector('#paper');
+paper.addEventListener('click', () => {
+    let comp = computerPlay();
+  playRound('paper', comp);
+});
+
+
+const scissors = document.querySelector('#scissors');
+scissors.addEventListener('click', () => {
+    let comp = computerPlay();
+  playRound('scissors', comp);
+});
+
 
 let game = () => {
     let i = 0;
